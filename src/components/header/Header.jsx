@@ -10,6 +10,7 @@ const Header = () => {
         <h1>CrisWO92</h1>
         <h5 className='text-light'>React Developer</h5>
         <CTA />
+         {/*Voy por el minuto 50:50*/}
       </div>
     </header>
   )
