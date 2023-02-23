@@ -100,7 +100,7 @@ a:hover {
 
 .btn {
     width: max-content;
-    display: block;
+    display: inline-block;
     /*
     A block element occupies the maximum width available.
     The content of the block is the 100% of its parent 
