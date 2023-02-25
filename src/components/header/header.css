@@ -63,3 +63,49 @@ adding the line above the social icons
     font-weight: 300;
     font-size: 0.9rem;
 }
+
+
+/*-----------------MEDIA QUERIES (MEDIUM DEVICES) ------------*/
+@media screen and (max-width: 1024px) {
+    
+    header {
+        height: 68vh;
+        padding-top: 5.5rem;
+    }
+
+    .me {
+        width: 14rem;
+        height: 19rem;
+        padding: 2.1rem 0 0 0;
+    }
+
+    .cta {
+        margin-top: 1.4rem;
+        display: flex;
+        gap: 1.2rem;
+        justify-content: center;
+    }
+
+}
+
+
+/*-----------------MEDIA QUERIES (SMALL DEVICES) ------------*/
+@media screen and (max-width: 600px) {
+    
+    header {
+        height: 100vh;
+        padding-top: 8rem;
+    }
+
+    .header__socials,
+    .scroll__down {
+        display: none;
+    }
+
+    .me {
+        width: 21rem;
+        height: 32rem;
+        padding: 3.8rem 0 0 0;
+    }
+
+}
